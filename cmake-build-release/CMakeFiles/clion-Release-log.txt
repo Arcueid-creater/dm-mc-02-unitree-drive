@@ -1,0 +1,5 @@
+"D:\clion\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "MinGW Makefiles" -S D:\stm32CubeMX\project\Clionproject\CtrBoard-H7_UART -B D:\stm32CubeMX\project\Clionproject\CtrBoard-H7_UART\cmake-build-release
+-- Maximum optimization for speed
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/stm32CubeMX/project/Clionproject/CtrBoard-H7_UART/cmake-build-release

@@ -1,0 +1,3 @@
+D:/stm32CubeMX/project/Clionproject/CtrBoard-H7_UART/cmake-build-debug/CMakeFiles/CtrBoard-H7_UART.elf.dir
+D:/stm32CubeMX/project/Clionproject/CtrBoard-H7_UART/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/stm32CubeMX/project/Clionproject/CtrBoard-H7_UART/cmake-build-debug/CMakeFiles/rebuild_cache.dir
