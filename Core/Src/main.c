@@ -93,7 +93,7 @@ int main(void)
     cmd.id=0; 			//给电机控制指令结构体赋值
     cmd.mode=1;
     cmd.T=0;
-    cmd.W=20;
+    cmd.W=50;
     cmd.Pos=0;
     cmd.K_P=0;
     cmd.K_W=0.05;
@@ -106,13 +106,7 @@ unsigned char count=0;	//定义一个计数变量，用于控制电机转动时�
       SERVO_Send_recv(&cmd, &data);	//将控制指令发送给电机，同时接收返回值
       HAL_Delay(500);
       HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
-      count++;	//每0.5秒循环一次，3秒后发送指令使电机停止转动
-      if(count == 6)
-      {
-          cmd.W=0;
-          cmd.K_W=0;
-          count=0;
-      }
+     
 
 
 

@@ -5,6 +5,7 @@
 "ctrboard-h7_uart\usart.o"
 "ctrboard-h7_uart\stm32h7xx_it.o"
 "ctrboard-h7_uart\stm32h7xx_hal_msp.o"
+"ctrboard-h7_uart\go-m8010-6.o"
 "ctrboard-h7_uart\stm32h7xx_hal_cortex.o"
 "ctrboard-h7_uart\stm32h7xx_hal_rcc.o"
 "ctrboard-h7_uart\stm32h7xx_hal_rcc_ex.o"

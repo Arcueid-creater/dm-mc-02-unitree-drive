@@ -417,6 +417,11 @@
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32h7xx_hal_msp.c</FilePath>
             </File>
+            <File>
+              <FileName>GO-M8010-6.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\485driver\GO-M8010-6.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
