@@ -20,10 +20,10 @@
 #include "main.h"
 #include "usart.h"
 #include "gpio.h"
-#include "motor_control.h"
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "motor_control.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -55,7 +55,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-MOTOR_send cmd;   //以全局变量声明电机控制结构体和电机数据结构体，方便在故障时通过debug查看变量值
+MOTOR_send cmd;    //以全局变量声明电机控制结构体和电机数据结构体，方便在故障时通过debug查看变量值
 MOTOR_recv data;
 /* USER CODE END 0 */
 
@@ -63,7 +63,6 @@ MOTOR_recv data;
   * @brief  The application entry point.
   * @retval int
   */
-
 int main(void)
 {
   /* USER CODE BEGIN 1 */
@@ -93,12 +92,12 @@ int main(void)
     cmd.id=0; 			//给电机控制指令结构体赋值
     cmd.mode=1;
     cmd.T=0;
-    cmd.W=50;
+    cmd.W=70;
     cmd.Pos=0;
     cmd.K_P=0;
     cmd.K_W=0.05;
   /* USER CODE END 2 */
-unsigned char count=0;	//定义一个计数变量，用于控制电机转动时间
+
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
@@ -110,7 +109,7 @@ unsigned char count=0;	//定义一个计数变量，用于控制电机转动时�
 
 
 
-      /* USER CODE END WHILE */
+    /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
   }
