@@ -38,19 +38,17 @@ add_compile_options($<$<COMPILE_LANGUAGE:ASM>:-x$<SEMICOLON>assembler-with-cpp>)
 
 if ("${CMAKE_BUILD_TYPE}" STREQUAL "Release")
     message(STATUS "Maximum optimization for speed")
-    #add_compile_options(-Ofast)
+    add_compile_options(-O2)
 elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "RelWithDebInfo")
     message(STATUS "Maximum optimization for speed, debug info included")
-
-    #add_compile_options(-Ofast -g)
+    add_compile_options(-O2 -g)
 elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "MinSizeRel")
     message(STATUS "Maximum optimization for size")
-    #add_compile_options(-Os)
+    add_compile_options(-Os)
 else ()
     message(STATUS "Minimal optimization, debug info included")
-    #add_compile_options(-Og -g)
+    add_compile_options(-Og -g)
 endif ()
-
 include_directories(Core/Inc Drivers/STM32H7xx_HAL_Driver/Inc Drivers/STM32H7xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32H7xx/Include Drivers/CMSIS/Include)
 include_directories(485driver
         User/example
@@ -59,9 +57,9 @@ include_directories(485driver
 )
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32H723xx)
 
-file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*" )
+file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*" "485driver/*.c" "User/*.c")
 
-file(GLOB DRIVER_SOURCES "485driver/*.c" "User/*.c" )
+
 list(APPEND SOURCES ${DRIVER_SOURCES})
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32H723VGTX_FLASH.ld)
 

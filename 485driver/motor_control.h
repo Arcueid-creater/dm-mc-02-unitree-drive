@@ -5,6 +5,7 @@
 #include "main.h" // stm32 hal
 #include "ris_protocol.h"
 #include "usart.h"
+
 #pragma pack(1)
 typedef union
 {

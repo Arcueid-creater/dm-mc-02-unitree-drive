@@ -832,6 +832,54 @@ Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrBoard-H7_UART.elf.dir\build.make CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
 
+User/example/example.obj: User/example/example.c.obj
+.PHONY : User/example/example.obj
+
+# target to build an object file
+User/example/example.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrBoard-H7_UART.elf.dir\build.make CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj
+.PHONY : User/example/example.c.obj
+
+User/example/example.i: User/example/example.c.i
+.PHONY : User/example/example.i
+
+# target to preprocess a source file
+User/example/example.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrBoard-H7_UART.elf.dir\build.make CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.i
+.PHONY : User/example/example.c.i
+
+User/example/example.s: User/example/example.c.s
+.PHONY : User/example/example.s
+
+# target to generate assembly for a file
+User/example/example.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrBoard-H7_UART.elf.dir\build.make CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.s
+.PHONY : User/example/example.c.s
+
+User/unitree_motor/unitree_motor.obj: User/unitree_motor/unitree_motor.c.obj
+.PHONY : User/unitree_motor/unitree_motor.obj
+
+# target to build an object file
+User/unitree_motor/unitree_motor.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrBoard-H7_UART.elf.dir\build.make CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.obj
+.PHONY : User/unitree_motor/unitree_motor.c.obj
+
+User/unitree_motor/unitree_motor.i: User/unitree_motor/unitree_motor.c.i
+.PHONY : User/unitree_motor/unitree_motor.i
+
+# target to preprocess a source file
+User/unitree_motor/unitree_motor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrBoard-H7_UART.elf.dir\build.make CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.i
+.PHONY : User/unitree_motor/unitree_motor.c.i
+
+User/unitree_motor/unitree_motor.s: User/unitree_motor/unitree_motor.c.s
+.PHONY : User/unitree_motor/unitree_motor.s
+
+# target to generate assembly for a file
+User/unitree_motor/unitree_motor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrBoard-H7_UART.elf.dir\build.make CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.s
+.PHONY : User/unitree_motor/unitree_motor.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -929,6 +977,12 @@ help:
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.s
+	@echo ... User/example/example.obj
+	@echo ... User/example/example.i
+	@echo ... User/example/example.s
+	@echo ... User/unitree_motor/unitree_motor.obj
+	@echo ... User/unitree_motor/unitree_motor.i
+	@echo ... User/unitree_motor/unitree_motor.s
 .PHONY : help
 
 

@@ -1445,6 +1445,125 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
   D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
   D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
 
+CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj: D:/git_project/dm-mc-02-unitree-drive/User/example/example.c \
+  D:/arm-none/arm-none-eabi/include/_ansi.h \
+  D:/arm-none/arm-none-eabi/include/_newlib_version.h \
+  D:/arm-none/arm-none-eabi/include/machine/_default_types.h \
+  D:/arm-none/arm-none-eabi/include/machine/_types.h \
+  D:/arm-none/arm-none-eabi/include/machine/ieeefp.h \
+  D:/arm-none/arm-none-eabi/include/math.h \
+  D:/arm-none/arm-none-eabi/include/newlib.h \
+  D:/arm-none/arm-none-eabi/include/stdint.h \
+  D:/arm-none/arm-none-eabi/include/string.h \
+  D:/arm-none/arm-none-eabi/include/strings.h \
+  D:/arm-none/arm-none-eabi/include/sys/_intsup.h \
+  D:/arm-none/arm-none-eabi/include/sys/_locale.h \
+  D:/arm-none/arm-none-eabi/include/sys/_stdint.h \
+  D:/arm-none/arm-none-eabi/include/sys/_types.h \
+  D:/arm-none/arm-none-eabi/include/sys/cdefs.h \
+  D:/arm-none/arm-none-eabi/include/sys/config.h \
+  D:/arm-none/arm-none-eabi/include/sys/features.h \
+  D:/arm-none/arm-none-eabi/include/sys/lock.h \
+  D:/arm-none/arm-none-eabi/include/sys/reent.h \
+  D:/arm-none/arm-none-eabi/include/sys/string.h \
+  D:/arm-none/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  D:/arm-none/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  D:/git_project/dm-mc-02-unitree-drive/485driver/motor_control.h \
+  D:/git_project/dm-mc-02-unitree-drive/485driver/ris_protocol.h \
+  D:/git_project/dm-mc-02-unitree-drive/Core/Inc/main.h \
+  D:/git_project/dm-mc-02-unitree-drive/Core/Inc/stm32h7xx_hal_conf.h \
+  D:/git_project/dm-mc-02-unitree-drive/Core/Inc/usart.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Include/core_cm7.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/User/motor_def.h \
+  D:/git_project/dm-mc-02-unitree-drive/User/example/example.h \
+  D:/git_project/dm-mc-02-unitree-drive/User/unitree_motor/unitree_motor.h
+
+CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.obj: D:/git_project/dm-mc-02-unitree-drive/User/unitree_motor/unitree_motor.c \
+  D:/arm-none/arm-none-eabi/include/_ansi.h \
+  D:/arm-none/arm-none-eabi/include/_newlib_version.h \
+  D:/arm-none/arm-none-eabi/include/machine/_default_types.h \
+  D:/arm-none/arm-none-eabi/include/machine/_types.h \
+  D:/arm-none/arm-none-eabi/include/machine/ieeefp.h \
+  D:/arm-none/arm-none-eabi/include/machine/malloc.h \
+  D:/arm-none/arm-none-eabi/include/malloc.h \
+  D:/arm-none/arm-none-eabi/include/math.h \
+  D:/arm-none/arm-none-eabi/include/newlib.h \
+  D:/arm-none/arm-none-eabi/include/stdint.h \
+  D:/arm-none/arm-none-eabi/include/sys/_intsup.h \
+  D:/arm-none/arm-none-eabi/include/sys/_stdint.h \
+  D:/arm-none/arm-none-eabi/include/sys/_types.h \
+  D:/arm-none/arm-none-eabi/include/sys/cdefs.h \
+  D:/arm-none/arm-none-eabi/include/sys/config.h \
+  D:/arm-none/arm-none-eabi/include/sys/features.h \
+  D:/arm-none/arm-none-eabi/include/sys/lock.h \
+  D:/arm-none/arm-none-eabi/include/sys/reent.h \
+  D:/arm-none/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  D:/arm-none/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  D:/git_project/dm-mc-02-unitree-drive/485driver/motor_control.h \
+  D:/git_project/dm-mc-02-unitree-drive/485driver/ris_protocol.h \
+  D:/git_project/dm-mc-02-unitree-drive/Core/Inc/main.h \
+  D:/git_project/dm-mc-02-unitree-drive/Core/Inc/stm32h7xx_hal_conf.h \
+  D:/git_project/dm-mc-02-unitree-drive/Core/Inc/usart.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Include/core_cm7.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
+  D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
+  D:/git_project/dm-mc-02-unitree-drive/User/motor_def.h \
+  D:/git_project/dm-mc-02-unitree-drive/User/unitree_motor/unitree_motor.h
+
 
 D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c:
 
@@ -1529,6 +1648,8 @@ D:/arm-none/arm-none-eabi/include/sys/lock.h:
 D:/arm-none/arm-none-eabi/include/sys/reent.h:
 
 D:/arm-none/arm-none-eabi/include/sys/stdio.h:
+
+D:/git_project/dm-mc-02-unitree-drive/User/example/example.c:
 
 D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 
@@ -1675,3 +1796,15 @@ D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx
 D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:
 
 D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c:
+
+D:/arm-none/arm-none-eabi/include/string.h:
+
+D:/arm-none/arm-none-eabi/include/strings.h:
+
+D:/arm-none/arm-none-eabi/include/sys/string.h:
+
+D:/git_project/dm-mc-02-unitree-drive/User/unitree_motor/unitree_motor.c:
+
+D:/arm-none/arm-none-eabi/include/machine/malloc.h:
+
+D:/arm-none/arm-none-eabi/include/malloc.h:

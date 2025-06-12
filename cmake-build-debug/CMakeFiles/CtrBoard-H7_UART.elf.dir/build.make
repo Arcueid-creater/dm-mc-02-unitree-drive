@@ -71,10 +71,24 @@ include CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/codegen:
 .PHONY : CMakeFiles/CtrBoard-H7_UART.elf.dir/codegen
 
+CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
+CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj: D:/git_project/dm-mc-02-unitree-drive/485driver/GO-M8010-6.c
+CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj"
+	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\485driver\GO-M8010-6.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\485driver\GO-M8010-6.c.obj -c D:\git_project\dm-mc-02-unitree-drive\485driver\GO-M8010-6.c
+
+CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.i"
+	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\git_project\dm-mc-02-unitree-drive\485driver\GO-M8010-6.c > CMakeFiles\CtrBoard-H7_UART.elf.dir\485driver\GO-M8010-6.c.i
+
+CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.s"
+	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\git_project\dm-mc-02-unitree-drive\485driver\GO-M8010-6.c -o CMakeFiles\CtrBoard-H7_UART.elf.dir\485driver\GO-M8010-6.c.s
+
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/gpio.c.obj: D:/git_project/dm-mc-02-unitree-drive/Core/Src/gpio.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/gpio.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\gpio.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Core\Src\gpio.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -88,7 +102,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/main.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/main.c.obj: D:/git_project/dm-mc-02-unitree-drive/Core/Src/main.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/main.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/main.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\main.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Core\Src\main.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/main.c.i: cmake_force
@@ -102,7 +116,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: D:/git_project/dm-mc-02-unitree-drive/Core/Src/stm32h7xx_hal_msp.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\stm32h7xx_hal_msp.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\stm32h7xx_hal_msp.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Core\Src\stm32h7xx_hal_msp.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_hal_msp.c.i: cmake_force
@@ -116,7 +130,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_hal_msp.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_it.c.obj: D:/git_project/dm-mc-02-unitree-drive/Core/Src/stm32h7xx_it.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_it.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_it.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\stm32h7xx_it.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\stm32h7xx_it.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Core\Src\stm32h7xx_it.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_it.c.i: cmake_force
@@ -130,7 +144,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_it.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/syscalls.c.obj: D:/git_project/dm-mc-02-unitree-drive/Core/Src/syscalls.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/syscalls.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\syscalls.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Core\Src\syscalls.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -144,7 +158,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/sysmem.c.obj: D:/git_project/dm-mc-02-unitree-drive/Core/Src/sysmem.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/sysmem.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\sysmem.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Core\Src\sysmem.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -158,7 +172,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/system_stm32h7xx.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/system_stm32h7xx.c.obj: D:/git_project/dm-mc-02-unitree-drive/Core/Src/system_stm32h7xx.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/system_stm32h7xx.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/system_stm32h7xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/system_stm32h7xx.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/system_stm32h7xx.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\system_stm32h7xx.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\system_stm32h7xx.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Core\Src\system_stm32h7xx.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/system_stm32h7xx.c.i: cmake_force
@@ -172,7 +186,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/system_stm32h7xx.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/usart.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/usart.c.obj: D:/git_project/dm-mc-02-unitree-drive/Core/Src/usart.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/usart.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/usart.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Src\usart.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Core\Src\usart.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -185,7 +199,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj: D:/git_project/dm-mc-02-unitree-drive/Core/Startup/startup_stm32h723vgtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Core\Startup\startup_stm32h723vgtx.s.obj -c D:\git_project\dm-mc-02-unitree-drive\Core\Startup\startup_stm32h723vgtx.s
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Startup/startup_stm32h723vgtx.s.i: cmake_force
@@ -199,7 +213,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Startup/startup_stm32h723vgtx.s.s: cmak
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i: cmake_force
@@ -213,7 +227,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i: cmake_force
@@ -227,7 +241,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i: cmake_force
@@ -241,7 +255,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i: cmake_force
@@ -255,7 +269,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i: cmake_force
@@ -269,7 +283,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i: cmake_force
@@ -283,7 +297,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i: cmake_force
@@ -297,7 +311,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i: cmake_force
@@ -311,7 +325,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i: cmake_force
@@ -325,7 +339,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i: cmake_force
@@ -339,7 +353,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i: cmake_force
@@ -353,7 +367,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i: cmake_force
@@ -367,7 +381,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i: cmake_force
@@ -381,7 +395,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i: cmake_force
@@ -395,7 +409,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i: cmake_force
@@ -409,7 +423,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i: cmake_force
@@ -423,7 +437,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i: cmake_force
@@ -437,7 +451,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i: cmake_force
@@ -451,7 +465,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i: cmake_force
@@ -465,7 +479,7 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c.obj -c D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c
 
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i: cmake_force
@@ -476,22 +490,37 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_h
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s"
 	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c -o CMakeFiles\CtrBoard-H7_UART.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c.s
 
-CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
-CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj: D:/git_project/dm-mc-02-unitree-drive/485driver/GO-M8010-6.c
-CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj"
-	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\485driver\GO-M8010-6.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\485driver\GO-M8010-6.c.obj -c D:\git_project\dm-mc-02-unitree-drive\485driver\GO-M8010-6.c
+CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
+CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj: D:/git_project/dm-mc-02-unitree-drive/User/example/example.c
+CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj"
+	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\User\example\example.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\User\example\example.c.obj -c D:\git_project\dm-mc-02-unitree-drive\User\example\example.c
 
-CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.i"
-	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\git_project\dm-mc-02-unitree-drive\485driver\GO-M8010-6.c > CMakeFiles\CtrBoard-H7_UART.elf.dir\485driver\GO-M8010-6.c.i
+CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.i"
+	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\git_project\dm-mc-02-unitree-drive\User\example\example.c > CMakeFiles\CtrBoard-H7_UART.elf.dir\User\example\example.c.i
 
-CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.s"
-	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\git_project\dm-mc-02-unitree-drive\485driver\GO-M8010-6.c -o CMakeFiles\CtrBoard-H7_UART.elf.dir\485driver\GO-M8010-6.c.s
+CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.s"
+	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\git_project\dm-mc-02-unitree-drive\User\example\example.c -o CMakeFiles\CtrBoard-H7_UART.elf.dir\User\example\example.c.s
+
+CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/flags.make
+CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.obj: D:/git_project/dm-mc-02-unitree-drive/User/unitree_motor/unitree_motor.c
+CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.obj: CMakeFiles/CtrBoard-H7_UART.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.obj"
+	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.obj -MF CMakeFiles\CtrBoard-H7_UART.elf.dir\User\unitree_motor\unitree_motor.c.obj.d -o CMakeFiles\CtrBoard-H7_UART.elf.dir\User\unitree_motor\unitree_motor.c.obj -c D:\git_project\dm-mc-02-unitree-drive\User\unitree_motor\unitree_motor.c
+
+CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.i"
+	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\git_project\dm-mc-02-unitree-drive\User\unitree_motor\unitree_motor.c > CMakeFiles\CtrBoard-H7_UART.elf.dir\User\unitree_motor\unitree_motor.c.i
+
+CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.s"
+	D:\arm-none\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\git_project\dm-mc-02-unitree-drive\User\unitree_motor\unitree_motor.c -o CMakeFiles\CtrBoard-H7_UART.elf.dir\User\unitree_motor\unitree_motor.c.s
 
 # Object files for target CtrBoard-H7_UART.elf
 CtrBoard__H7_UART_elf_OBJECTS = \
+"CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj" \
 "CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj" \
@@ -521,11 +550,13 @@ CtrBoard__H7_UART_elf_OBJECTS = \
 "CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj" \
 "CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj" \
 "CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj" \
-"CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj"
+"CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj" \
+"CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.obj"
 
 # External object files for target CtrBoard-H7_UART.elf
 CtrBoard__H7_UART_elf_EXTERNAL_OBJECTS =
 
+CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj
 CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/gpio.c.obj
 CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/main.c.obj
 CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
@@ -555,10 +586,11 @@ CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_
 CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
 CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
 CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
-CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/485driver/GO-M8010-6.c.obj
+CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj
+CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.obj
 CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/build.make
 CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C executable CtrBoard-H7_UART.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C executable CtrBoard-H7_UART.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CtrBoard-H7_UART.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/git_project/dm-mc-02-unitree-drive/cmake-build-debug/CtrBoard-H7_UART.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/git_project/dm-mc-02-unitree-drive/cmake-build-debug/CtrBoard-H7_UART.bin"

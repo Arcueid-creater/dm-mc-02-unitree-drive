@@ -84,12 +84,12 @@ clean: CMakeFiles/CtrBoard-H7_UART.elf.dir/clean
 CMakeFiles/CtrBoard-H7_UART.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrBoard-H7_UART.elf.dir\build.make CMakeFiles/CtrBoard-H7_UART.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrBoard-H7_UART.elf.dir\build.make CMakeFiles/CtrBoard-H7_UART.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target CtrBoard-H7_UART.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target CtrBoard-H7_UART.elf"
 .PHONY : CMakeFiles/CtrBoard-H7_UART.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CtrBoard-H7_UART.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CtrBoard-H7_UART.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/CtrBoard-H7_UART.elf.dir/rule
@@ -101,7 +101,7 @@ CtrBoard-H7_UART.elf: CMakeFiles/CtrBoard-H7_UART.elf.dir/rule
 # codegen rule for target.
 CMakeFiles/CtrBoard-H7_UART.elf.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrBoard-H7_UART.elf.dir\build.make CMakeFiles/CtrBoard-H7_UART.elf.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Finished codegen for target CtrBoard-H7_UART.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\git_project\dm-mc-02-unitree-drive\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Finished codegen for target CtrBoard-H7_UART.elf"
 .PHONY : CMakeFiles/CtrBoard-H7_UART.elf.dir/codegen
 
 # clean rule for target.

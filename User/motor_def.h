@@ -7,6 +7,7 @@
 #include "usart.h"
 #include "motor_control.h"
 #define MOTOR_CNT 8
+
 typedef enum
 {
     MOTOR_TYPE_NONE = 0,
@@ -18,6 +19,11 @@ typedef enum
     GM6623,
     GO_M8010,
 } motor_type_e;
+typedef enum
+{
+    huart1_channel = 0,
+    huart2_channel = 1,
+}HUART_channel_e;
 typedef enum
 {
     MOTOR_STOP = 0,

@@ -7,12 +7,14 @@
 #include "motor_control.h"
 #include "usart.h"
 #include "unitree_motor.h"
-static motor_config_t *example_motor_config=NULL;
-unitree_motor_object_t *example_motor_object=NULL;
+#include "string.h"
+static motor_config_t *example_motor_config;
+unitree_motor_object_t *example_motor_object;
 void init_example_motor()
 {
+    memset(example_motor_config,0,sizeof(motor_config_t));
     example_motor_config->motor_type = GO_M8010;
-    example_motor_config->channel = huart2;
+    example_motor_config->cmd.channel = huart2;
     MOTOR_send *cmds=&example_motor_config->cmd;
     cmds->id=0;
     cmds->mode=1;

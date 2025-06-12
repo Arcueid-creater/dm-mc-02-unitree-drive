@@ -19,7 +19,7 @@ unitree_motor_object_t *unitree_motor_register(motor_config_t *config, void *con
 
     unitree_motor_object_t *object = malloc(sizeof(unitree_motor_object_t));
     object->motor_type = config->motor_type;
-    object->channel=config->channel;
+    object->cmd.channel=config->channel;
     object->cmd=config->cmd;
     object->measure=config->measure;
     object->control = control;
@@ -35,12 +35,12 @@ void unitree_motor_relax(unitree_motor_object_t *motor_obj)
 }
 void unitree_motor_control()
 {
-    SERVO_Send_recv(&unitree_motor_obj[0]->cmd, &unitree_motor_obj[0]->measure);
+
     for (int i = 0; i < idx; i++)
     {
         if (unitree_motor_obj[i]->stop_flag == MOTOR_ENALBED)
         {
-
+            SERVO_Send_recv(&unitree_motor_obj[i]->cmd, &unitree_motor_obj[i]->measure);
         }
 
 
