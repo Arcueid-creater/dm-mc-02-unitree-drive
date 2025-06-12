@@ -5,7 +5,7 @@
 #include <malloc.h>
 #include "unitree_motor.h"
 #include "motor_def.h"
-
+#include "motor_control.h"
 static uint8_t idx = 0; // register idx,是该文件的全局电机索引,在注册时使用
 /* DJI电机的实例,此处仅保存指针,内存的分配将通过电机实例初始化时通过malloc()进行 */
 static unitree_motor_object_t *unitree_motor_obj[MOTOR_CNT] = {NULL};
@@ -19,7 +19,7 @@ unitree_motor_object_t *unitree_motor_register(motor_config_t *config, void *con
 
     unitree_motor_object_t *object = malloc(sizeof(unitree_motor_object_t));
     object->motor_type = config->motor_type;
-    object->channel=config->channel;
+    object->cmd.channel=config->channel;
     object->cmd=config->cmd;
     object->measure=config->measure;
     object->control = control;
@@ -35,12 +35,12 @@ void unitree_motor_relax(unitree_motor_object_t *motor_obj)
 }
 void unitree_motor_control()
 {
-    SERVO_Send_recv(&unitree_motor_obj[0]->cmd, &unitree_motor_obj[0]->measure);
+
     for (int i = 0; i < idx; i++)
     {
         if (unitree_motor_obj[i]->stop_flag == MOTOR_ENALBED)
         {
-
+            SERVO_Send_recv(&unitree_motor_obj[i]->cmd, &unitree_motor_obj[i]->measure);
         }
 
 

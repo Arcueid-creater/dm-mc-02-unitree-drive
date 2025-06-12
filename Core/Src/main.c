@@ -57,8 +57,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-MOTOR_send cmds;    //以全�?变量声明电机控制结构体和电机数据结构体，方便在故障时通过debug查看变量�?
-MOTOR_recv data;
+
 /* USER CODE END 0 */
 
 /**
@@ -93,14 +92,7 @@ int main(void)
   MX_USART2_UART_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
-  cmds.channel=huart2;
-    cmds.id=0;
-    cmds.mode=1;
-    cmds.T=0;
-    cmds.W=70;
-    cmds.Pos=0;
-    cmds.K_P=0;
-    cmds.K_W=0.05;
+    init_example_motor();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -108,9 +100,9 @@ int main(void)
   while (1)
   {
       a++;
-      SERVO_Send_recv(&cmds,&data);
-      HAL_Delay(500);
-      HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
+      unitree_motor_control();
+      HAL_Delay(100);
+
      
 
 

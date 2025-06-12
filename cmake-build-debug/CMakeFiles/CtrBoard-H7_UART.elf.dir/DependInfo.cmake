@@ -63,6 +63,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c" "CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj.d"
   "D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c" "CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj.d"
   "D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c" "CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_UART.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj.d"
+  "D:/git_project/dm-mc-02-unitree-drive/User/example/example.c" "CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj.d"
+  "D:/git_project/dm-mc-02-unitree-drive/User/unitree_motor/unitree_motor.c" "CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_UART.elf.dir/User/unitree_motor/unitree_motor.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

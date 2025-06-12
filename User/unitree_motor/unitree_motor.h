@@ -8,7 +8,7 @@
 #include "motor_def.h"
 typedef struct
 {
-    UART_HandleTypeDef channel;               // 电机CAN实例
+                   // 电机CAN实例
     MOTOR_recv measure;            // 电机测量值
     MOTOR_send cmd;
 

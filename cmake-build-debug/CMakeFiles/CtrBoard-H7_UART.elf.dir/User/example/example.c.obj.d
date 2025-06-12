@@ -56,4 +56,8 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj: \
  D:\git_project\dm-mc-02-unitree-drive\485driver/motor_control.h \
  D:\git_project\dm-mc-02-unitree-drive\Core\Inc/main.h \
  D:\git_project\dm-mc-02-unitree-drive\485driver/ris_protocol.h \
- D:\git_project\dm-mc-02-unitree-drive\User\unitree_motor/unitree_motor.h
+ D:\git_project\dm-mc-02-unitree-drive\User\unitree_motor/unitree_motor.h \
+ D:/arm-none/arm-none-eabi/include/string.h \
+ D:/arm-none/arm-none-eabi/include/sys/_locale.h \
+ D:/arm-none/arm-none-eabi/include/strings.h \
+ D:/arm-none/arm-none-eabi/include/sys/string.h
