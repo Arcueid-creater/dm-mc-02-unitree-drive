@@ -72,8 +72,11 @@ void Error_Handler(void);
 #define LD1_Pin GPIO_PIN_0
 #define LD1_GPIO_Port GPIOB
 
-#define RS485_DE_Pin GPIO_PIN_4
-#define RS485_DE_GPIO_Port GPIOD
+#define huart2_DE_Pin GPIO_PIN_4
+#define huart2_DE_GPIO_Port GPIOD
+
+#define huart3_DE_Pin GPIO_PIN_14
+#define huart3_DE_GPIO_Port GPIOB
 
 #define RMII_TXD1_Pin GPIO_PIN_13
 #define RMII_TXD1_GPIO_Port GPIOB

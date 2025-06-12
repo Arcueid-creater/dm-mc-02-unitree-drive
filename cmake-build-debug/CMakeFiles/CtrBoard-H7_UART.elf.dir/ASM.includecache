@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-D:/stm32CubeMX/project/Clionproject/CtrBoard-H7_UART/Core/Startup/startup_stm32h723vgtx.s
+D:/git_project/dm-mc-02-unitree-drive/Core/Startup/startup_stm32h723vgtx.s
 

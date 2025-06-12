@@ -4,6 +4,7 @@
 #include <stdint.h>
 #include "main.h" // stm32 hal
 #include "ris_protocol.h"
+#include "usart.h"
 #pragma pack(1)
 typedef union
 {
@@ -116,6 +117,7 @@ typedef struct
 typedef struct
 {
     // 定义 发送格式化数据
+    UART_HandleTypeDef channel;
     ControlData_t motor_send_data;   //电机控制数据结构体
     int hex_len;                        //发送的16进制命令数组长度, 34
     long long send_time;                //发送该命令的时间, 微秒(us)
@@ -129,7 +131,7 @@ typedef struct
     float Pos;                          //期望关节位置（rad）
     float K_P;                          //关节刚度系数
     float K_W;                          //关节速度系数
-    COMData32 Res;                    // 通讯 保留字节  用于实现别的一些通讯内容
+    COMData32 Res;                      // 通讯 保留字节  用于实现别的一些通讯内容
 } MOTOR_send;
 
 typedef struct
@@ -151,9 +153,11 @@ typedef struct
 
 } MOTOR_recv;
 
-#define SET_485_DE_UP() HAL_GPIO_WritePin(RS485_DE_GPIO_Port, RS485_DE_Pin, GPIO_PIN_SET)
-#define SET_485_DE_DOWN() HAL_GPIO_WritePin(RS485_DE_GPIO_Port, RS485_DE_Pin, GPIO_PIN_RESET)
+#define SET_huart2_DE_UP() HAL_GPIO_WritePin(huart2_DE_GPIO_Port, huart2_DE_Pin, GPIO_PIN_SET)
+#define SET_huart2_DE_DOWN() HAL_GPIO_WritePin(huart2_DE_GPIO_Port, huart2_DE_Pin, GPIO_PIN_RESET)
 
+#define SET_huart3_DE_UP() HAL_GPIO_WritePin(huart3_DE_GPIO_Port, huart3_DE_Pin, GPIO_PIN_SET)
+#define SET_huart3_DE_DOWN() HAL_GPIO_WritePin(huart3_DE_GPIO_Port, huart3_DE_Pin, GPIO_PIN_RESET)
 
 uint32_t crc32_core(uint32_t *ptr, uint32_t len);
 int modify_data(MOTOR_send *motor_s);

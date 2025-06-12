@@ -3,7 +3,7 @@
   ******************************************************************************
   * @file           : main.c
   * @brief          : Main program body
-  ******************************************************************************
+  ******************************************************************************@#�?
   * @attention
   *
   * Copyright (c) 2024 STMicroelectronics.
@@ -24,6 +24,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "motor_control.h"
+#include "unitree_motor.h"
+#include "example.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -55,7 +57,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-MOTOR_send cmd;    //以全局变量声明电机控制结构体和电机数据结构体，方便在故障时通过debug查看变量值
+MOTOR_send cmds;    //以全�?变量声明电机控制结构体和电机数据结构体，方便在故障时通过debug查看变量�?
 MOTOR_recv data;
 /* USER CODE END 0 */
 
@@ -63,6 +65,7 @@ MOTOR_recv data;
   * @brief  The application entry point.
   * @retval int
   */
+  int a=0;
 int main(void)
 {
   /* USER CODE BEGIN 1 */
@@ -88,21 +91,24 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART2_UART_Init();
+  MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
-    cmd.id=0; 			//给电机控制指令结构体赋值
-    cmd.mode=1;
-    cmd.T=0;
-    cmd.W=70;
-    cmd.Pos=0;
-    cmd.K_P=0;
-    cmd.K_W=0.05;
+  cmds.channel=huart2;
+    cmds.id=0;
+    cmds.mode=1;
+    cmds.T=0;
+    cmds.W=70;
+    cmds.Pos=0;
+    cmds.K_P=0;
+    cmds.K_W=0.05;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      SERVO_Send_recv(&cmd, &data);	//将控制指令发送给电机，同时接收返回值
+      a++;
+      SERVO_Send_recv(&cmds,&data);
       HAL_Delay(500);
       HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
      

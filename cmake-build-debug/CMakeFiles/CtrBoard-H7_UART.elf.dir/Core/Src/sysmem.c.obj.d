@@ -1,5 +1,5 @@
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/sysmem.c.obj: \
- D:\stm32CubeMX\project\Clionproject\CtrBoard-H7_UART\Core\Src\sysmem.c \
+ D:\git_project\dm-mc-02-unitree-drive\Core\Src\sysmem.c \
  D:/arm-none/arm-none-eabi/include/errno.h \
  D:/arm-none/arm-none-eabi/include/sys/errno.h \
  D:/arm-none/arm-none-eabi/include/sys/reent.h \

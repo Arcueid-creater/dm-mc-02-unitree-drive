@@ -1,5 +1,5 @@
 CMakeFiles/CtrBoard-H7_UART.elf.dir/Core/Src/syscalls.c.obj: \
- D:\stm32CubeMX\project\Clionproject\CtrBoard-H7_UART\Core\Src\syscalls.c \
+ D:\git_project\dm-mc-02-unitree-drive\Core\Src\syscalls.c \
  D:/arm-none/arm-none-eabi/include/sys/stat.h \
  D:/arm-none/arm-none-eabi/include/_ansi.h \
  D:/arm-none/arm-none-eabi/include/newlib.h \
