@@ -101,7 +101,7 @@ HAL_StatusTypeDef SERVO_Send_recv(MOTOR_send *pData, MOTOR_recv *rData)
 
     SET_huart3_DE_DOWN();
     SET_huart2_DE_DOWN();
-    HAL_UARTEx_ReceiveToIdle(&pData->channel, (uint8_t *)&(pData->motor_send_data), sizeof(rData->motor_recv_data), &rxlen, 10);
+    HAL_UARTEx_ReceiveToIdle(&pData->channel, (uint8_t *)&(rData->motor_recv_data), sizeof(rData->motor_recv_data), &rxlen, 10);
 		
 
     if(rxlen == 0)
@@ -112,7 +112,7 @@ HAL_StatusTypeDef SERVO_Send_recv(MOTOR_send *pData, MOTOR_recv *rData)
 			return HAL_ERROR;
 
     uint8_t *rp = (uint8_t *)&rData->motor_recv_data;
-    if(rp[0] == 0xFE && rp[1] == 0xEE)
+    if((rp[0] == 0xFE || rp[0] == 0xFD) && rp[1] == 0xEE)
     {
         rData->correct = 1;
         extract_data(rData);

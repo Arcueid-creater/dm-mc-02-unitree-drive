@@ -7,11 +7,11 @@ ASM_DEFINES = -DDEBUG -DSTM32H723xx -DUSE_HAL_DRIVER
 
 ASM_INCLUDES = -ID:\git_project\dm-mc-02-unitree-drive\Core\Inc -ID:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Inc -ID:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy -ID:\git_project\dm-mc-02-unitree-drive\Drivers\CMSIS\Device\ST\STM32H7xx\Include -ID:\git_project\dm-mc-02-unitree-drive\Drivers\CMSIS\Include -ID:\git_project\dm-mc-02-unitree-drive\485driver -ID:\git_project\dm-mc-02-unitree-drive\User\example -ID:\git_project\dm-mc-02-unitree-drive\User\unitree_motor -ID:\git_project\dm-mc-02-unitree-drive\User
 
-ASM_FLAGS = -g -mcpu=cortex-m7 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
+ASM_FLAGS = -g -mcpu=cortex-m7 -mthumb -mthumb-interwork -gdwarf-4 -ggdb3 -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -O0 -g3 -ggdb
 
 C_DEFINES = -DDEBUG -DSTM32H723xx -DUSE_HAL_DRIVER
 
 C_INCLUDES = -ID:\git_project\dm-mc-02-unitree-drive\Core\Inc -ID:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Inc -ID:\git_project\dm-mc-02-unitree-drive\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy -ID:\git_project\dm-mc-02-unitree-drive\Drivers\CMSIS\Device\ST\STM32H7xx\Include -ID:\git_project\dm-mc-02-unitree-drive\Drivers\CMSIS\Include -ID:\git_project\dm-mc-02-unitree-drive\485driver -ID:\git_project\dm-mc-02-unitree-drive\User\example -ID:\git_project\dm-mc-02-unitree-drive\User\unitree_motor -ID:\git_project\dm-mc-02-unitree-drive\User
 
-C_FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m7 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+C_FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m7 -mthumb -mthumb-interwork -gdwarf-4 -ggdb3 -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -O0 -g3 -ggdb
 

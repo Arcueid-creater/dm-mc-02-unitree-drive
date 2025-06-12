@@ -28,13 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 70,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 66,
+				"line" : 74,
 				"parent" : 0
 			},
 			{
@@ -47,6 +41,24 @@
 				"command" : 1,
 				"file" : 0,
 				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 72,
 				"parent" : 0
 			},
 			{
@@ -76,19 +88,19 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 58,
-				"parent" : 0
-			},
-			{
-				"command" : 4,
-				"file" : 0,
-				"line" : 52,
+				"line" : 59,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
 				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 54,
 				"parent" : 0
 			}
 		]
@@ -102,93 +114,105 @@
 					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mcpu=cortex-m7"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mthumb"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mthumb-interwork"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
+					"fragment" : "-gdwarf-4"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ggdb3"
+				},
+				{
+					"backtrace" : 8,
 					"fragment" : "-ffunction-sections"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fdata-sections"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fno-common"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fmessage-length=0"
 				},
 				{
-					"backtrace" : 8,
-					"fragment" : "-Og"
+					"backtrace" : 10,
+					"fragment" : "-O0"
 				},
 				{
-					"backtrace" : 8,
-					"fragment" : "-g"
+					"backtrace" : 10,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-ggdb"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 9,
+					"backtrace" : 11,
 					"define" : "DEBUG"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 11,
 					"define" : "STM32H723xx"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 11,
 					"define" : "USE_HAL_DRIVER"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 10,
+					"backtrace" : 12,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/Core/Inc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 12,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 12,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 12,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 12,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Include"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 13,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/485driver"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 13,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/User/example"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 13,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/User/unitree_motor"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 13,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/User"
 				}
 			],
@@ -243,101 +267,113 @@
 					"fragment" : "-g"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mcpu=cortex-m7"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mthumb"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mthumb-interwork"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
+					"fragment" : "-gdwarf-4"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ggdb3"
+				},
+				{
+					"backtrace" : 8,
 					"fragment" : "-ffunction-sections"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fdata-sections"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fno-common"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fmessage-length=0"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 9,
 					"fragment" : "-x"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 9,
 					"fragment" : "assembler-with-cpp"
 				},
 				{
-					"backtrace" : 8,
-					"fragment" : "-Og"
+					"backtrace" : 10,
+					"fragment" : "-O0"
 				},
 				{
-					"backtrace" : 8,
-					"fragment" : "-g"
+					"backtrace" : 10,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-ggdb"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 9,
+					"backtrace" : 11,
 					"define" : "DEBUG"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 11,
 					"define" : "STM32H723xx"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 11,
 					"define" : "USE_HAL_DRIVER"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 10,
+					"backtrace" : 12,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/Core/Inc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 12,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 12,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 12,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 12,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/Drivers/CMSIS/Include"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 13,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/485driver"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 13,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/User/example"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 13,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/User/unitree_motor"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 13,
 					"path" : "D:/git_project/dm-mc-02-unitree-drive/User"
 				}
 			],
@@ -383,11 +419,21 @@
 			},
 			{
 				"backtrace" : 4,
+				"fragment" : "-Wl,--export-dynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
 				"fragment" : "-T",
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 4,
+				"backtrace" : 6,
 				"fragment" : "D:/git_project/dm-mc-02-unitree-drive/STM32H723VGTX_FLASH.ld",
 				"role" : "flags"
 			}

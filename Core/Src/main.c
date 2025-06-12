@@ -57,8 +57,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-MOTOR_send cmds;    //以全�?变量声明电机控制结构体和电机数据结构体，方便在故障时通过debug查看变量�?
-MOTOR_recv data;
+
 /* USER CODE END 0 */
 
 /**
@@ -102,7 +101,7 @@ int main(void)
   {
       a++;
       unitree_motor_control();
-      HAL_Delay(500);
+      HAL_Delay(100);
 
      
 

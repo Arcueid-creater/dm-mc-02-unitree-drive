@@ -26,8 +26,8 @@ set(CMAKE_C_STANDARD 11)
 #Uncomment for software floating point
 #add_compile_options(-mfloat-abi=soft)
 
-
-add_compile_options(-mcpu=cortex-m7 -mthumb -mthumb-interwork)
+# 修改编译选项，增加调试信息
+add_compile_options(-mcpu=cortex-m7 -mthumb -mthumb-interwork -gdwarf-4 -ggdb3)
 add_compile_options(-ffunction-sections -fdata-sections -fno-common -fmessage-length=0)
 
 # uncomment to mitigate c++17 absolute addresses warnings
@@ -41,14 +41,15 @@ if ("${CMAKE_BUILD_TYPE}" STREQUAL "Release")
     add_compile_options(-O2)
 elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "RelWithDebInfo")
     message(STATUS "Maximum optimization for speed, debug info included")
-    add_compile_options(-O2 -g)
+    add_compile_options(-O2 -g3 -ggdb)
 elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "MinSizeRel")
     message(STATUS "Maximum optimization for size")
     add_compile_options(-Os)
 else ()
     message(STATUS "Minimal optimization, debug info included")
-    add_compile_options(-Og -g)
+    add_compile_options(-O0 -g3 -gdwarf-4 -ggdb)
 endif ()
+
 include_directories(Core/Inc Drivers/STM32H7xx_HAL_Driver/Inc Drivers/STM32H7xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32H7xx/Include Drivers/CMSIS/Include)
 include_directories(485driver
         User/example
@@ -65,6 +66,9 @@ set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32H723VGTX_FLASH.ld)
 
 add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)
 add_link_options(-mcpu=cortex-m7 -mthumb -mthumb-interwork)
+# 添加导出动态符号和调试信息的链接选项
+add_link_options(-Wl,--export-dynamic)
+add_link_options(-g)
 add_link_options(-T ${LINKER_SCRIPT})
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
@@ -72,8 +76,11 @@ add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
 set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)
 
+# 添加更多调试信息输出
 add_custom_command(TARGET ${PROJECT_NAME}.elf POST_BUILD
         COMMAND ${CMAKE_OBJCOPY} -Oihex $<TARGET_FILE:${PROJECT_NAME}.elf> ${HEX_FILE}
         COMMAND ${CMAKE_OBJCOPY} -Obinary $<TARGET_FILE:${PROJECT_NAME}.elf> ${BIN_FILE}
+        COMMAND ${CMAKE_OBJDUMP} -S $<TARGET_FILE:${PROJECT_NAME}.elf> > ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.lst
         COMMENT "Building ${HEX_FILE}
-Building ${BIN_FILE}")
+Building ${BIN_FILE}
+Generating disassembly file")
