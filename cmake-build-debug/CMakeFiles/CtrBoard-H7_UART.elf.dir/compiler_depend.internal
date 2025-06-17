@@ -1481,6 +1481,8 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj
  D:/arm-none/arm-none-eabi/include/machine/_default_types.h
  D:/arm-none/arm-none-eabi/include/machine/_types.h
  D:/arm-none/arm-none-eabi/include/machine/ieeefp.h
+ D:/arm-none/arm-none-eabi/include/machine/malloc.h
+ D:/arm-none/arm-none-eabi/include/malloc.h
  D:/arm-none/arm-none-eabi/include/math.h
  D:/arm-none/arm-none-eabi/include/newlib.h
  D:/arm-none/arm-none-eabi/include/stdint.h

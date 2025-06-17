@@ -1451,6 +1451,8 @@ CMakeFiles/CtrBoard-H7_UART.elf.dir/User/example/example.c.obj: D:/git_project/d
   D:/arm-none/arm-none-eabi/include/machine/_default_types.h \
   D:/arm-none/arm-none-eabi/include/machine/_types.h \
   D:/arm-none/arm-none-eabi/include/machine/ieeefp.h \
+  D:/arm-none/arm-none-eabi/include/machine/malloc.h \
+  D:/arm-none/arm-none-eabi/include/malloc.h \
   D:/arm-none/arm-none-eabi/include/math.h \
   D:/arm-none/arm-none-eabi/include/newlib.h \
   D:/arm-none/arm-none-eabi/include/stdint.h \
@@ -1797,6 +1799,10 @@ D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx
 
 D:/git_project/dm-mc-02-unitree-drive/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c:
 
+D:/arm-none/arm-none-eabi/include/machine/malloc.h:
+
+D:/arm-none/arm-none-eabi/include/malloc.h:
+
 D:/arm-none/arm-none-eabi/include/string.h:
 
 D:/arm-none/arm-none-eabi/include/strings.h:
@@ -1804,7 +1810,3 @@ D:/arm-none/arm-none-eabi/include/strings.h:
 D:/arm-none/arm-none-eabi/include/sys/string.h:
 
 D:/git_project/dm-mc-02-unitree-drive/User/unitree_motor/unitree_motor.c:
-
-D:/arm-none/arm-none-eabi/include/machine/malloc.h:
-
-D:/arm-none/arm-none-eabi/include/malloc.h:

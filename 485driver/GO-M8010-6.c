@@ -94,14 +94,30 @@ HAL_StatusTypeDef SERVO_Send_recv(MOTOR_send *pData, MOTOR_recv *rData)
     modify_data(pData);
 
 
-    SET_huart2_DE_UP();
-    SET_huart3_DE_UP();
-    HAL_UART_Transmit(&pData->channel, (uint8_t *)&(pData->motor_send_data), sizeof(pData->motor_send_data), 10);
+
+    if (pData->channel==usart2_485)
+    {
+        SET_huart2_DE_UP();
+        SET_huart3_DE_UP();
+        HAL_UART_Transmit(&huart2, (uint8_t *)&(pData->motor_send_data), sizeof(pData->motor_send_data), 10);
+        SET_huart3_DE_DOWN();
+        SET_huart2_DE_DOWN();
+        HAL_UARTEx_ReceiveToIdle(&huart2, (uint8_t *)&(rData->motor_recv_data), sizeof(rData->motor_recv_data), &rxlen, 10);
+    }
+    else if (pData->channel==usart3_485)
+    {
+        SET_huart2_DE_UP();
+        SET_huart3_DE_UP();
+        HAL_UART_Transmit(&huart3, (uint8_t *)&(pData->motor_send_data), sizeof(pData->motor_send_data), 10);
+        SET_huart3_DE_DOWN();
+        SET_huart2_DE_DOWN();
+        HAL_UARTEx_ReceiveToIdle(&huart3, (uint8_t *)&(rData->motor_recv_data), sizeof(rData->motor_recv_data), &rxlen, 10);
+    }
 
 
-    SET_huart3_DE_DOWN();
-    SET_huart2_DE_DOWN();
-    HAL_UARTEx_ReceiveToIdle(&pData->channel, (uint8_t *)&(rData->motor_recv_data), sizeof(rData->motor_recv_data), &rxlen, 10);
+
+
+
 		
 
     if(rxlen == 0)

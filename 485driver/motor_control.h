@@ -114,12 +114,19 @@ typedef struct
 } ControlData_t;     //电机控制命令数据包
 
 #pragma pack()
+typedef enum
+{
+    usart3_485 = 3, // huart3
+    usart2_485 = 2, // huart2
 
+}Channel_t;
 typedef struct
 {
     // 定义 发送格式化数据
-    UART_HandleTypeDef channel;
+
+
     ControlData_t motor_send_data;   //电机控制数据结构体
+    Channel_t channel;
     int hex_len;                        //发送的16进制命令数组长度, 34
     long long send_time;                //发送该命令的时间, 微秒(us)
     // 待发送的各项数据

@@ -32,7 +32,7 @@ typedef enum
 typedef struct
 {
     motor_type_e motor_type;
-    UART_HandleTypeDef channel; // UART通道
+    Channel_t channel;
 
     MOTOR_recv measure;            // 电机测量值
     MOTOR_send cmd;
