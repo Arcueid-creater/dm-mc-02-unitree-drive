@@ -11,7 +11,7 @@
 #include "string.h"
  motor_config_t example_motor_config={
     .motor_type = GO_M8010,
-    .channel = usart2_485,
+    //.channel = usart2_485,
     .cmd = {
          .channel= usart2_485,
         .id = 0,

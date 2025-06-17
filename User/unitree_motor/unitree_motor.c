@@ -19,7 +19,8 @@ unitree_motor_object_t *unitree_motor_register(motor_config_t *config, void *con
 
     unitree_motor_object_t *object = malloc(sizeof(unitree_motor_object_t));
     object->motor_type = config->motor_type;
-    object->cmd.channel=config->channel;
+    //object->cmd.channel=config->channel;
+    object->cmd.channel=config->cmd.channel;
     object->cmd=config->cmd;
     object->measure=config->measure;
     object->control = control;
